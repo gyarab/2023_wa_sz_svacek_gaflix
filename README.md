@@ -1,6 +1,6 @@
 # Setup
 
-'
+'''
 python -m venv venv
 source venv/Scripts/activate
 touch requirements.txt
@@ -12,4 +12,4 @@ git remote add origin <github adress>
 touch .gitignore - do nej venv/
 git commit -m <jmeno prvniho comitu>
 git push -u origin master
-'
+'''
