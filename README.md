@@ -9,7 +9,7 @@ Initial setup commands
 5. pip freeze - vypsano do requirements (ctrl + c, ctrl + v)
 6. git init
 7. git add .
-8. git remote add origin <github adress>
+8. git remote add origin [adresa githubu]
 9. touch .gitignore - do nej venv/
-10. git commit -m <jmeno prvniho comitu>
+10. git commit -m [jmeno prvniho prikazu př.: "test"]
 11. git push -u origin master
