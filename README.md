@@ -11,5 +11,5 @@ Initial setup commands
 7. git add .
 8. git remote add origin [adresa githubu]
 9. touch .gitignore - do nej venv/
-10. git commit -m [jmeno prvniho prikazu př.: "test"]
+10. git commit -m [jmeno prvniho comitu př.: "test"]
 11. git push -u origin master
