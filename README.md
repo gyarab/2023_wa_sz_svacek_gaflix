@@ -5,4 +5,4 @@
 - `source ./venv/Scripts/activate`
 - `pip install -r requirements.txt`
 
-- `python manage.py runserver` (`nano ~/.bashrc alias behej='python manage.py runserver' alias behej='python manage.py runserver'`)
+- `python manage.py runserver` (`nano ~/.bashrc`; `alias behej='python manage.py runserver'`; `source ~/.bashrc`)
