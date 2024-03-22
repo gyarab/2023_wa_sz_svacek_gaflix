@@ -5,4 +5,13 @@
 - `source ./venv/Scripts/activate`
 - `pip install -r requirements.txt`
 
+## Alias
+
 - `python manage.py runserver` (`nano ~/.bashrc`; `alias behej='python manage.py runserver'`; `source ~/.bashrc`)
+
+## Migrations and superuser
+
+- `python manage.py makemigrations`
+- `python manage.py migrate`
+- `python manage.py createsuperuser`
+
