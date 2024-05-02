@@ -13,3 +13,5 @@ Initial setup commands
 9. touch .gitignore - do nej venv/
 10. git commit -m [jmeno prvniho comitu př.: "test"]
 11. git push -u origin master
+
+funny video: [https://www.youtube.com/watch?v=dQw4w9WgXcQ]
