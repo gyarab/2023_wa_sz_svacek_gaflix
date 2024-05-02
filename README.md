@@ -14,4 +14,4 @@ Initial setup commands
 10. git commit -m [jmeno prvniho comitu př.: "test"]
 11. git push -u origin master
 
-funny video: [https://www.youtube.com/watch?v=dQw4w9WgXcQ]
+funny video: [click here](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
