@@ -1,0 +1,56 @@
+[
+{
+  "model": "filmy.movie",
+  "pk": 1,
+  "fields": {
+    "name": "Django",
+    "year": 1999,
+    "footage": null
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 2,
+  "fields": {
+    "name": "Node.js",
+    "year": 1600,
+    "footage": null
+  }
+},
+{
+  "model": "filmy.movie",
+  "pk": 3,
+  "fields": {
+    "name": "Hello World",
+    "year": 2222,
+    "footage": 120
+  }
+},
+{
+  "model": "filmy.director",
+  "pk": 1,
+  "fields": {
+    "name": "Karel",
+    "birth_year": 4,
+    "description": "d",
+    "main_picture": "Green_7uKBnKi.tif"
+  }
+},
+{
+  "model": "filmy.director",
+  "pk": 2,
+  "fields": {
+    "name": "Jirka",
+    "birth_year": 15,
+    "description": "dfdfdfaaef",
+    "main_picture": "Color_Bars_HD_16x9.tif"
+  }
+},
+{
+  "model": "filmy.genre",
+  "pk": 1,
+  "fields": {
+    "name": "Porno"
+  }
+}
+]
