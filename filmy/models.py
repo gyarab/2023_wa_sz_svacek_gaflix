@@ -21,7 +21,7 @@ class Director(models.Model):
     main_picture = models.ImageField()
 
     def __str__(self):
-        return f'{self.first_name} {self.last_name}'
+        return f'{self.name}'
     
     class Meta:
         verbose_name = 'Director'
