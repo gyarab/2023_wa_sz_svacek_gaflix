@@ -1,0 +1,4 @@
+[
+  { "model": "filmy.genre", "pk": 2, "fields": { "name": "Dokument" } },
+  { "model": "filmy.genre", "pk": 3, "fields": { "name": "Akční" } }
+]
