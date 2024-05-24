@@ -1,0 +1,22 @@
+[
+  {
+    "model": "filmy.actor",
+    "pk": 1,
+    "fields": {
+      "name": "Tom Hanks",
+      "birth_year": null,
+      "description": "Thomas Jeffrey „Tom“ Hanks je americký filmový herec, režisér a producent, držitel dvou Oscarů za nejlepší herecký výkon v hlavní roli.",
+      "main_picture": "Screenshot_2024-01-07_110930.png"
+    }
+  },
+  {
+    "model": "filmy.actor",
+    "pk": 2,
+    "fields": {
+      "name": "Tom Cruise",
+      "birth_year": null,
+      "description": "Thomas „Tom“ Cruise Mapother IV je americký herec, scenárista, producent a režisér.",
+      "main_picture": "Screenshot_2024-01-07_110930_r276thr.png"
+    }
+  }
+]

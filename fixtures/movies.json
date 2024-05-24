@@ -1,56 +1,35 @@
 [
-{
-  "model": "filmy.movie",
-  "pk": 1,
-  "fields": {
-    "name": "Django",
-    "year": 1999,
-    "footage": null
+  {
+    "model": "filmy.movie",
+    "pk": 1,
+    "fields": {
+      "name": "Bullet Train",
+      "year": 2022,
+      "footage": 127,
+      "description": "Brad Pitt hraje ve filmu Bullet Train nájemného zabijáka Berušku, který je odhodlán vykonávat svou práci mírumilovně, jelikož se mu spousta předchozích kšeftů vymkla z rukou a smůla se mu lepí na paty. Osud má nicméně jiné plány, protože Beruška se při své nejnovější misi v nejrychlejším vlaku světa dostane do křížku se smrtícími protivníky. Jejich cíle jsou vzájemně propojené, a zároveň protichůdné. Konec trati je pouze začátkem nepřetržité divoké a vzrušující jízdy napříč moderním Japonskem.",
+      "main_picture": ""
+    }
+  },
+  {
+    "model": "filmy.movie",
+    "pk": 2,
+    "fields": {
+      "name": "Top Gun",
+      "year": 1986,
+      "footage": 106,
+      "description": "Top Gun je americký akčně-dramatický film z roku 1986, který režíroval Tony Scott, produkoval Don Simpson a Jerry Bruckheimer, ve spojení s Paramount Pictures. Je to první díl filmové série Top Gun.",
+      "main_picture": ""
+    }
+  },
+  {
+    "model": "filmy.movie",
+    "pk": 3,
+    "fields": {
+      "name": "Jurský park",
+      "year": 1993,
+      "footage": 122,
+      "description": "Jurský park je americký vědeckofantastický film režiséra Stevena Spielberga z roku 1993. Autorem knižní předlohy je známý americký spisovatel Michael Crichton, který svůj román vydal roku 1990. Práva ke zfilmování nakonec získali mezi mnoha dalšími zájemci Universal Studios a sám Crichton byl najat jako scenárista.",
+      "main_picture": ""
+    }
   }
-},
-{
-  "model": "filmy.movie",
-  "pk": 2,
-  "fields": {
-    "name": "Node.js",
-    "year": 1600,
-    "footage": null
-  }
-},
-{
-  "model": "filmy.movie",
-  "pk": 3,
-  "fields": {
-    "name": "Hello World",
-    "year": 2222,
-    "footage": 120
-  }
-},
-{
-  "model": "filmy.director",
-  "pk": 1,
-  "fields": {
-    "name": "Karel",
-    "birth_year": 4,
-    "description": "d",
-    "main_picture": "Green_7uKBnKi.tif"
-  }
-},
-{
-  "model": "filmy.director",
-  "pk": 2,
-  "fields": {
-    "name": "Jirka",
-    "birth_year": 15,
-    "description": "dfdfdfaaef",
-    "main_picture": "Color_Bars_HD_16x9.tif"
-  }
-},
-{
-  "model": "filmy.genre",
-  "pk": 1,
-  "fields": {
-    "name": "Porno"
-  }
-}
 ]

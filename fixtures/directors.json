@@ -1,0 +1,22 @@
+[
+  {
+    "model": "filmy.director",
+    "pk": 3,
+    "fields": {
+      "name": "Steven Spielberg",
+      "birth_year": 1946,
+      "description": "Steven Allan Spielberg, KBE, OMRI je americký režisér, filmový producent a scenárista, komerčně nejúspěšnější filmový režisér všech dob. Patří k nejpopulárnějším režisérům filmové historie; jeho filmy Čelisti, E.T. – Mimozemšťan a Jurský park vytvořily kasovní rekordy.",
+      "main_picture": "Screenshot_2024-01-23_181921.png"
+    }
+  },
+  {
+    "model": "filmy.director",
+    "pk": 4,
+    "fields": {
+      "name": "Martin Scorsese",
+      "birth_year": 1942,
+      "description": "Martin Scorsese [skorsesý] je americký režisér, herec, scenárista a pedagog. Hlavními tématy Scorseseho snímků většinou bývají osudy italoamerické komunity, organizovaný zločin, násilí, silní jedinci i náboženské problémy.",
+      "main_picture": "Screenshot_2023-11-03_161539.png"
+    }
+  }
+]
