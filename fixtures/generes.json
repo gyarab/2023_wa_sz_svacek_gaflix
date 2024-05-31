@@ -1,4 +1,7 @@
 [
   { "model": "filmy.genre", "pk": 2, "fields": { "name": "Dokument" } },
-  { "model": "filmy.genre", "pk": 3, "fields": { "name": "Akční" } }
+  { "model": "filmy.genre", "pk": 3, "fields": { "name": "Akční" } },
+  { "model": "filmy.genre", "pk": 4, "fields": { "name": "Dobrodružný" } },
+  { "model": "filmy.genre", "pk": 5, "fields": { "name": "Nsfw" } },
+  { "model": "filmy.genre", "pk": 6, "fields": { "name": "Dokument" } }
 ]

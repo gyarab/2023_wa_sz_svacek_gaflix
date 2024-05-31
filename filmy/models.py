@@ -7,7 +7,7 @@ class Movie(models.Model):
     year = models.IntegerField(blank=True, null=True)
     footage = models.PositiveSmallIntegerField(blank=True, null=True)
     description = models.TextField(blank=True, null=True)
-    main_picture = models.ImageField(blank=True, null=True)
+    main_picture = models.CharField(blank=True, default="", max_length=2000)
     director = models.ForeignKey('Director', on_delete=models.CASCADE, blank=True, null=True)
     actors = models.ManyToManyField('Actor', blank=True)
     genres = models.ManyToManyField('Genre', blank=True)

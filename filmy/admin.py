@@ -3,7 +3,10 @@ from django.contrib import admin
 from filmy.models import Movie, Director, Genre, Actor
 
 class ActorAdmin(admin.ModelAdmin):
-    pass
+    list_display = ["id", "name", "birth_year"]
+    list_display_links = ["id", "name"]
+    search_fields = ["name"]
+    list_filter = ["birth_year"]
 
 class MovieAdmin(admin.ModelAdmin):
     list_display = ['id', 'name', 'year', 'genres_display', 'director']
@@ -12,10 +15,15 @@ class MovieAdmin(admin.ModelAdmin):
     list_filter = ['genres', 'director']
 
 class DirectorAdmin(admin.ModelAdmin):
-    pass
+    list_display = ['id', 'name', 'birth_year', 'description', 'main_picture']
+    list_display_links = ['name', 'id']
+    search_fields = ['name']
+
 
 class GenreAdmin(admin.ModelAdmin):
-    pass
+    list_display = ["id", "name"]
+    list_display_links = ["id", "name"]
+    search_fields = ["name"]
 
 admin.site.register(Movie, MovieAdmin)
 

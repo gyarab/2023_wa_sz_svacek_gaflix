@@ -7,7 +7,10 @@
       "year": 2022,
       "footage": 127,
       "description": "Brad Pitt hraje ve filmu Bullet Train nájemného zabijáka Berušku, který je odhodlán vykonávat svou práci mírumilovně, jelikož se mu spousta předchozích kšeftů vymkla z rukou a smůla se mu lepí na paty. Osud má nicméně jiné plány, protože Beruška se při své nejnovější misi v nejrychlejším vlaku světa dostane do křížku se smrtícími protivníky. Jejich cíle jsou vzájemně propojené, a zároveň protichůdné. Konec trati je pouze začátkem nepřetržité divoké a vzrušující jízdy napříč moderním Japonskem.",
-      "main_picture": ""
+      "main_picture": "https://image.tmdb.org/t/p/original/wi6MS8RFpWj5mJfp9KDpX5Ycvmi.jpg",
+      "director": 3,
+      "actors": [1, 2],
+      "genres": [3, 4, 5]
     }
   },
   {
@@ -18,7 +21,10 @@
       "year": 1986,
       "footage": 106,
       "description": "Top Gun je americký akčně-dramatický film z roku 1986, který režíroval Tony Scott, produkoval Don Simpson a Jerry Bruckheimer, ve spojení s Paramount Pictures. Je to první díl filmové série Top Gun.",
-      "main_picture": ""
+      "main_picture": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/369e7d97247403.5ec0cb494a3bf.jpg",
+      "director": null,
+      "actors": [],
+      "genres": [3, 4]
     }
   },
   {
@@ -29,7 +35,10 @@
       "year": 1993,
       "footage": 122,
       "description": "Jurský park je americký vědeckofantastický film režiséra Stevena Spielberga z roku 1993. Autorem knižní předlohy je známý americký spisovatel Michael Crichton, který svůj román vydal roku 1990. Práva ke zfilmování nakonec získali mezi mnoha dalšími zájemci Universal Studios a sám Crichton byl najat jako scenárista.",
-      "main_picture": ""
+      "main_picture": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/f00bf346385235.58520f9022451.jpg",
+      "director": null,
+      "actors": [],
+      "genres": [2, 3, 4]
     }
   }
 ]
