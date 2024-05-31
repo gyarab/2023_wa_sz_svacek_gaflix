@@ -29,6 +29,10 @@
                 <img class="card-img-top" src="{{ movie.main_picture }}" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">{{ movie.name }}</h5>
+
+                    {% if movie.director %}
+                    <h6>{{ movie.director }}</h6>
+                    {% endif %}
                     
                     {% for gener in movie.genres.all %}
                     <span class="badge rounded-pill text-bg-primary">{{ gener.name }}</span>
