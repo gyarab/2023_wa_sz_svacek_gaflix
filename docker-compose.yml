@@ -12,17 +12,17 @@ services:
     labels:
       - "traefik.enable=true"
 
-      - "traefik.http.routers.wa-vch1-http.rule=Host(`vch1.wa.dtcloud.cz`)"
-      - "traefik.http.routers.wa-vch1-http.entrypoints=web"
-      - "traefik.http.routers.wa-vch1-http.middlewares=wa-vch1-redirect-https@docker"
+      - "traefik.http.routers.wa-js7-http.rule=Host(`js7.wa.dtcloud.cz`)"
+      - "traefik.http.routers.wa-js7-http.entrypoints=web"
+      - "traefik.http.routers.wa-js7-http.middlewares=wa-js7-redirect-https@docker"
 
-      - "traefik.http.middlewares.wa-vch1-redirect-https.redirectscheme.scheme=https"
-      - "traefik.http.middlewares.wa-vch1-redirect-https.redirectscheme.permanent=true"
+      - "traefik.http.middlewares.wa-js7-redirect-https.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.wa-js7-redirect-https.redirectscheme.permanent=true"
 
-      - "traefik.http.routers.wa-vch1-https.rule=Host(`vch1.wa.dtcloud.cz`)"
-      - "traefik.http.routers.wa-vch1-https.entrypoints=websecure"
-      - "traefik.http.routers.wa-vch1-https.tls=true"
-      - "traefik.http.routers.wa-vch1-https.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.wa-js7-https.rule=Host(`js7.wa.dtcloud.cz`)"
+      - "traefik.http.routers.wa-js7-https.entrypoints=websecure"
+      - "traefik.http.routers.wa-js7-https.tls=true"
+      - "traefik.http.routers.wa-js7-https.tls.certresolver=letsencrypt"
     networks:
       - default
 
@@ -36,17 +36,17 @@ services:
     labels:
       - "traefik.enable=true"
 
-      - "traefik.http.routers.wa-vch1-static-http.rule=Host(`vch1.wa.dtcloud.cz`) && PathPrefix(`/static`)"
-      - "traefik.http.routers.wa-vch1-static-http.entrypoints=web"
-      - "traefik.http.routers.wa-vch1-static-http.middlewares=wa-vch1-static-redirect-https@docker"
+      - "traefik.http.routers.wa-js7-static-http.rule=Host(`js7.wa.dtcloud.cz`) && PathPrefix(`/static`)"
+      - "traefik.http.routers.wa-js7-static-http.entrypoints=web"
+      - "traefik.http.routers.wa-js7-static-http.middlewares=wa-js7-static-redirect-https@docker"
 
-      - "traefik.http.middlewares.wa-vch1-static-redirect-https.redirectscheme.scheme=https"
-      - "traefik.http.middlewares.wa-vch1-static-redirect-https.redirectscheme.permanent=true"
+      - "traefik.http.middlewares.wa-js7-static-redirect-https.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.wa-js7-static-redirect-https.redirectscheme.permanent=true"
 
-      - "traefik.http.routers.wa-vch1-static-https.rule=Host(`vch1.wa.dtcloud.cz`) && PathPrefix(`/static`)"
-      - "traefik.http.routers.wa-vch1-static-https.entrypoints=websecure"
-      - "traefik.http.routers.wa-vch1-static-https.tls=true"
-      - "traefik.http.routers.wa-vch1-static-https.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.wa-js7-static-https.rule=Host(`js7.wa.dtcloud.cz`) && PathPrefix(`/static`)"
+      - "traefik.http.routers.wa-js7-static-https.entrypoints=websecure"
+      - "traefik.http.routers.wa-js7-static-https.tls=true"
+      - "traefik.http.routers.wa-js7-static-https.tls.certresolver=letsencrypt"
     networks:
       - default
 
